@@ -3,23 +3,25 @@ I have provided a template that is configured to my paths, but I'll explain here
 
 First we are going to make a template for OpenGL projects. 
 If you want to use mine as an example then put the OpenGL_Temp.zip file in this folder
-C:\Users\cjulg\OneDrive\Documents\Visual Studio 2022\Templates\ProjectTemplates
+>C:\Users\cjulg\OneDrive\Documents\Visual Studio 2022\Templates\ProjectTemplates
 This template won't work for u but it may come in handy to have side by side while u make yr own. 
 
 To make your own template, you'll have to create a new project in Visual Studio, then go to
 Debug > Properties > General > Include Directories
 Put the path to the include folder (inside the OpenGL Library folder)
-It should look something like this C:\Users\cjulg\OneDrive\Documents\OpenGLlibrary\include
+It should look something like this 
+>C:\Users\cjulg\OneDrive\Documents\OpenGLlibrary\include
 
 Next go to 
 Debug > Properties > Linker > (General) > Additional Library Directories
 Put the path to the lib folder (inside the OpenGL Library folder)
-It shold look something like this C:\Users\cjulg\OneDrive\Documents\OpenGLlibrary\lib
+It shold look something like this 
+>C:\Users\cjulg\OneDrive\Documents\OpenGLlibrary\lib
 
 Last, go to
 Debug > Properties > Linker > Input > Additional Dependencies
 Write this stuff in. They're libraries and some important files.
-glfw3.lib;glew32.lib;soil2-debug.lib;opengl32.lib;gdi32.lib;user32.lib;shell32.lib
+>glfw3.lib;glew32.lib;soil2-debug.lib;opengl32.lib;gdi32.lib;user32.lib;shell32.lib
 
 In Visual Studio there is rectangular button "Debug" next to x64. 
 Make sure you complete all of these steps in both Debbug mode AND Release mode. Yes, you gotta do it all twice.
