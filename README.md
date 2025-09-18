@@ -27,8 +27,8 @@ Make sure you complete all of these steps in both Debbug mode AND Release mode. 
 Before we save this as a template we can make sure it works by running the main.cpp file i provided. 
 Place the glew32.dll in the folder created by Visual Studio
 
-Lastly make sure your cpp file is in your Solution Explorer > Source Files. If not, right click your project in Solution Explorer
-> Add > Add Existing (if you already have your cpp file ready) or Add New (if you are making a cpp file for the first time).
+Lastly make sure your cpp file is in your Solution Explorer > Source Files. If not, 
+right click your project in Solution Explorer > Add > Add Existing (if you already have your cpp file ready) or Add New (if you are making a cpp file for the first time).
 And boom there u go. Press the run button and a window should pop up and Success should appear in the Out log.
 
 If everything works, then u can save your project template by doing Project > Export Template > click through some stuff until you name yr project
