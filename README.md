@@ -4,6 +4,7 @@ I have provided a template that is configured to my paths, but I'll explain here
 First we are going to make a template for OpenGL projects. 
 If you want to use mine as an example then put the OpenGL_Temp.zip file in this folder
 >C:\Users\cjulg\OneDrive\Documents\Visual Studio 2022\Templates\ProjectTemplates
+
 This template won't work for u but it may come in handy to have side by side while u make yr own. 
 
 To make your own template, you'll have to create a new project in Visual Studio, then go to
